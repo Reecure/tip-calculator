@@ -1,9 +1,17 @@
 * {
+  font-family: 'Custom';
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-size: 16px;
 }
 body {
   font-family: BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
     'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background-color: hsl(185, 41%, 84%);
+}
+
+@font-face {
+  font-family: Custom;
+  src: url('./fonts/SpaceMono-Bold.ttf');
 }

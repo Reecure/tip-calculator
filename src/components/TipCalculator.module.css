@@ -1,0 +1,103 @@
+.mainBlock {
+  display: flex;
+  padding: 50px;
+  width: 925px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.leftBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  width: 360px;
+  height: 300px;
+  margin-right: 50px;
+  color: hsl(184, 14%, 56%);
+}
+
+.billInput {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 350px;
+  padding: 5px;
+  text-align: end;
+  border: 0;
+  border-radius: 5px;
+  background-color: hsl(189, 41%, 97%);
+  outline: none;
+}
+
+.billInput:focus {
+  border: 1px solid cadetblue;
+}
+
+.buttonsPercent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.buttonsPercent input {
+  margin: 10px;
+  width: 100px;
+  padding: 5px;
+  font-size: 24px;
+  text-align: end;
+  outline: none;
+  background-color: hsl(189, 41%, 97%);
+  border: 0;
+  border-radius: 5px;
+}
+
+.buttonsPercent input:focus {
+  border: 2px solid hsl(172, 67%, 45%);
+}
+
+.peoplesCountBlock {
+  margin-top: 20px;
+}
+
+.invisible {
+  display: none;
+}
+
+.err {
+  color: red;
+}
+
+.peoplesCountBlock input {
+  margin-top: 15px;
+  width: 350px;
+  padding: 5px;
+  text-align: end;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: hsl(189, 41%, 97%);
+}
+
+.peoplesCountBlock input:focus {
+  border: 1px solid cadetblue;
+}
+
+.rightBlock {
+  width: 400px;
+  padding: 50px;
+  text-align: start;
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 20px;
+  color: white;
+}
+
+.resetButton {
+  margin-top: 100px;
+  width: 300px;
+  padding: 5px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+}
